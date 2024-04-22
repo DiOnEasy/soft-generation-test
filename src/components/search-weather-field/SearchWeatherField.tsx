@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { TextField, Button, Grid } from "@mui/material";
 
+
 interface SearchFormProps {
   onSearch: (city: string) => void;
 }
@@ -25,7 +26,7 @@ export const SearchWeatherField: React.FC<SearchFormProps> = ({ onSearch }) => {
       onSubmit={handleSubmit}
     >
       <Grid spacing={1} container alignItems="center" component="div">
-        <Grid lg={12} item>
+        <Grid xs={12} item>
           <TextField
             style={{ margin: "0 10px" }}
             id="outlined-search"
@@ -36,7 +37,7 @@ export const SearchWeatherField: React.FC<SearchFormProps> = ({ onSearch }) => {
             onChange={handleChange}
           />
         </Grid>
-        <Grid lg={12} item>
+        <Grid xs={12} item>
           <Button
             type="submit"
             variant="contained"
@@ -50,5 +51,3 @@ export const SearchWeatherField: React.FC<SearchFormProps> = ({ onSearch }) => {
     </form>
   );
 };
-
-

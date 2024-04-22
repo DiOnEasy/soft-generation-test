@@ -14,8 +14,13 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "axios": "^1.6.8",
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.2.0",
+    "firebase": "^10.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^9.1.1",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "typescript": "^4.4.2",
@@ -47,6 +52,9 @@
   },
   "devDependencies": {
     "prettier": "^3.2.5"
+  },
+  "browser": {
+    "crypto": false
   },
   "main": "index.js",
   "author": "DiOnEasy <d11062002d@gmail.com>",
