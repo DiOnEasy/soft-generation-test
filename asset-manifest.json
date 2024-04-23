@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/soft-generation-test/static/css/main.2aff10a2.css",
+    "main.js": "/soft-generation-test/static/js/main.77c56a5d.js",
+    "index.html": "/soft-generation-test/index.html",
+    "main.2aff10a2.css.map": "/soft-generation-test/static/css/main.2aff10a2.css.map",
+    "main.77c56a5d.js.map": "/soft-generation-test/static/js/main.77c56a5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aff10a2.css",
+    "static/js/main.77c56a5d.js"
+  ]
+}
